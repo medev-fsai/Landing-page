@@ -27,7 +27,7 @@ a {
 
 .hero,
 .features,
-.quotes,
+.quote,
 .action {
     flex:0 0 auto;
     padding: 0 15%;
@@ -135,6 +135,29 @@ a {
     font-size: 18px;
 }
 
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    padding: 100px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.quote-text{
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+}
 
 
 .footer {
