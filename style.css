@@ -88,7 +88,7 @@ a {
 }
 
 .hero-img {
-    flex: 2 0 auto;
+    flex: 2 1 auto;
     width: 600px;
     background-color: grey;
     display: flex;
@@ -100,6 +100,40 @@ a {
 
 
 
+.features {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center
+}
+
+.features-title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+.features-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img {
+    flex: 1 1 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 4px solid #5194ff;
+}
+.feature-description {
+    width: 140px;
+    font-size: 18px;
+}
 
 
 
