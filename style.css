@@ -19,6 +19,13 @@ a {
     text-decoration: none;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .hero,
 .footer {
     background-color: #1F2937;
@@ -78,6 +85,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .hero-btn {
     background-color: #3882F6;
     color: inherit;
@@ -143,14 +151,12 @@ a {
 .quote-content {
     padding: 100px;
 }
-p{
-    margin: 0;
-    padding: 0;
-}
+
 .quote-text{
     font-weight: 300;
     font-size: 36px;
     font-style: italic;
+    text-align: justify;
     color: #1F2937;
 }
 .author {
@@ -158,6 +164,36 @@ p{
     font-size: 24px;
     text-align: end;
 }
+
+
+
+.action-item {
+    background-color: #3882F6;
+    margin: 50px 0px;
+    padding: 40px 100px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-title{
+    font-weight: bold;
+}
+.action-text {
+    color: #E5E7EB;
+}
+.action-btn {
+    background-color: #3882F6;
+    color: inherit;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+
+
 
 
 .footer {
