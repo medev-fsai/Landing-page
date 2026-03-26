@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero,
+.features,
+.quotes,
+.action {
+    flex:1 0 auto;
+}
+.footer {
+    flex: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
